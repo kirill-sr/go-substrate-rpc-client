@@ -1,14 +1,14 @@
 package author_test
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types/extrinsic"
 	"testing"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	gsrpc "github.com/kirill-sr/go-substrate-rpc-client/v4"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/config"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/rpc/author"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/signature"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
 )
 

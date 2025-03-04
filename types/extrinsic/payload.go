@@ -1,13 +1,13 @@
 package extrinsic
 
 import (
-	libErr "github.com/centrifuge/go-substrate-rpc-client/v4/error"
+	libErr "github.com/kirill-sr/go-substrate-rpc-client/v4/error"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic/extensions"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/scale"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/signature"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types/extrinsic/extensions"
 )
 
 const (

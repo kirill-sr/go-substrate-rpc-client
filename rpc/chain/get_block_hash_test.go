@@ -19,7 +19,7 @@ package chain
 import (
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,9 +1,9 @@
 package extrinsic
 
 import (
-	libErr "github.com/centrifuge/go-substrate-rpc-client/v4/error"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	libErr "github.com/kirill-sr/go-substrate-rpc-client/v4/error"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/scale"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types"
 )
 
 const (

@@ -19,8 +19,8 @@ package types
 import (
 	"io"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/scale"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types/codec"
 )
 
 // Call is the extrinsic function descriptor

@@ -19,9 +19,9 @@
 package chain
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/block"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/client"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/types/block"
 )
 
 //go:generate mockery --name Chain --filename chain.go

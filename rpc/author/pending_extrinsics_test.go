@@ -19,8 +19,8 @@ package author_test
 import (
 	"testing"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
+	gsrpc "github.com/kirill-sr/go-substrate-rpc-client/v4"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/config"
 	"github.com/stretchr/testify/assert"
 )
 

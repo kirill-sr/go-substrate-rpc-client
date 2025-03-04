@@ -19,9 +19,9 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
 	fuzz "github.com/google/gofuzz"
+	. "github.com/kirill-sr/go-substrate-rpc-client/v4/types"
+	. "github.com/kirill-sr/go-substrate-rpc-client/v4/types/test_utils"
 )
 
 var (

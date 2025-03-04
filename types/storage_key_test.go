@@ -18,15 +18,15 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/scale"
 	"strings"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/hash"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/hash"
+	. "github.com/kirill-sr/go-substrate-rpc-client/v4/types"
+	. "github.com/kirill-sr/go-substrate-rpc-client/v4/types/codec"
+	. "github.com/kirill-sr/go-substrate-rpc-client/v4/types/test_utils"
+	"github.com/kirill-sr/go-substrate-rpc-client/v4/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

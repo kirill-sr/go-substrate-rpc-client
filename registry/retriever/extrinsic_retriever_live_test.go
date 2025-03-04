@@ -3,7 +3,7 @@
 package retriever
 
 import (
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
+	gsrpc "github.com/kirill-sr/go-substrate-rpc-client/v4"
 	"log"
 	"os"
 	"strconv"
