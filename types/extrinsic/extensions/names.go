@@ -16,7 +16,7 @@ const (
 	CheckGenesisSignedExtension                SignedExtensionName = "CheckGenesis"
 	CheckWeightSignedExtension                 SignedExtensionName = "CheckWeight"
 	PreBalanceTransferExtensionSignedExtension SignedExtensionName = "PreBalanceTransferExtension"
-	StorageWeightReclaimSignedExtension        SignedExtensionName = "StorageWeightReclaim"
+	WeightReclaimSignedExtension               SignedExtensionName = "WeightReclaim"
 	PrevalidateAttestsSignedExtension          SignedExtensionName = "PrevalidateAttests"
 	CheckNetworkMembershipSignedExtension      SignedExtensionName = "CheckNetworkMembership"
 )
