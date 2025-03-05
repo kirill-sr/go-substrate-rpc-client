@@ -223,6 +223,7 @@ var PayloadMutatorFns = map[extensions.SignedExtensionName]PayloadMutatorFn{
 	extensions.CheckWeightSignedExtension:                 func(payload *Payload) {},
 	extensions.PreBalanceTransferExtensionSignedExtension: func(payload *Payload) {},
 	extensions.WeightReclaimSignedExtension:               func(payload *Payload) {},
+	extensions.StorageWeightReclaimSignedExtension:        func(payload *Payload) {},
 	extensions.PrevalidateAttestsSignedExtension:          func(payload *Payload) {},
 	extensions.CheckNetworkMembershipSignedExtension:      func(payload *Payload) {},
 }
@@ -241,6 +242,10 @@ func createPayload(meta *types.Metadata, encodedCall []byte) (*Payload, error) {
 
 		if !ok {
 			return nil, ErrSignedExtensionTypeNotDefined.WithMsg("lookup ID - '%d'", signedExtension.Type.Int64())
+		}
+
+		if len(signedExtensionType.Path) == 0 {
+			continue
 		}
 
 		signedExtensionName := extensions.SignedExtensionName(signedExtensionType.Path[len(signedExtensionType.Path)-1])
